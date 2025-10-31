@@ -29,7 +29,7 @@ This repository helps students **learn, debug, understand, and practice** essent
 
 | Name | GitHub Profile |
 |------|----------------|
-| Deep Saha | [@Deepsaha15](https://github.com/DeepSaha25) |
+| Deep Saha | [@DeepSaha25](https://github.com/DeepSaha25) |
 | Abiroy Karmakar | [@AbiroyKarmakar21](https://github.com/AbiroyKarmakar21) |
 
 ---
