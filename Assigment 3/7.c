@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-void main(){
+int main(){
     int start, end;
     printf("Enter the start and end range:");
     scanf("%d %d", &start, &end);
@@ -13,6 +13,10 @@ void main(){
         i++;
     }
     while(i<=end);
+
+    return 0;
+
+}
    
     
-}
+
