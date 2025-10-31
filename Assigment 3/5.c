@@ -2,12 +2,15 @@
 
 #include <stdio.h>
 void main(){
-    int i,n;
-    printf("enter no of numbers to print:");
+    int i,n ,s;
+    printf("enter no of numbers to find sum of:");
     scanf("%d",&n);
     i=0;
+    s=0;
     while(i<=n){
-      printf("%d \n",i);
+      s=s+i;
         i++;
+        
     }
+    printf("%d \n",s);
 }

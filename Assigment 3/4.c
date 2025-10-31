@@ -1,6 +1,4 @@
 #include <stdio.h>
-<<<<<<< HEAD
-
 int main(){
     int start, end, i;
 
@@ -34,4 +32,4 @@ void main(){
         i++;
     }
 }
->>>>>>> 280d0a2 (solved 4 and 5)
+
