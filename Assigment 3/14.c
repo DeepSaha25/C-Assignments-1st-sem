@@ -3,7 +3,7 @@
 #include <math.h>
 void main(){
     int x,a,n,i,r,d,s,j;
-    printf("Enter number to check no of digits:-");
+    printf("Enter number to check Armstrong Number:-");
     scanf("%d",&n);
     x=n;
     a=n;
