@@ -13,9 +13,7 @@ int main() {
     printf("Enter denominator (divisor): ");
     scanf("%d", &denominator);
 
-    // Check for division by zero
     if (denominator != 0) {
-        // Perform floating-point division by casting numerator to double
         result = (double)numerator / denominator;
         printf("The result of %d divided by %d is: %.4lf\n", numerator, denominator, result);
     } else {

@@ -9,12 +9,9 @@ int main() {
 
     printf("Before swap: a = %d, b = %d\n", a, b);
 
-    // Swapping logic without a third variable (using addition and subtraction)
-    // NOTE: This can cause overflow if a and b are very large.
-
-    a = a + b; // a now holds the sum (a = 5 + 15 = 20)
-    b = a - b; // b gets the original value of a (b = 20 - 15 = 5)
-    a = a - b; // a gets the original value of b (a = 20 - 5 = 15)
+    a = a + b;
+    b = a - b;
+    a = a - b;
 
     printf("After swap: a = %d, b = %d\n", a, b);
 

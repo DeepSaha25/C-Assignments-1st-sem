@@ -9,7 +9,6 @@ int main() {
     printf("Enter an integer: ");
     scanf("%d", &number);
 
-    // Check if the remainder when divided by 3 is 0.
     if (number % 3 == 0) {
         printf("%d is divisible by 3.\n", number);
     } else {

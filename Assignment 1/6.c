@@ -6,14 +6,13 @@
 int main() {
     int a = 10;
     int b = 20;
-    int temp; // The third variable
+    int temp;
 
     printf("Before swap: a = %d, b = %d\n", a, b);
 
-    // Swapping logic using the third variable (temp)
-    temp = a; // 1. Store the value of 'a' in 'temp' (temp = 10)
-    a = b;    // 2. Assign the value of 'b' to 'a' (a = 20)
-    b = temp; // 3. Assign the original value of 'a' (stored in temp) to 'b' (b = 10)
+    temp = a;
+    a = b;
+    b = temp;
 
     printf("After swap: a = %d, b = %d\n", a, b);
 

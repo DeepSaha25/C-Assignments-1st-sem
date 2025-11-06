@@ -9,7 +9,6 @@ int main() {
     printf("Enter the person's age: ");
     scanf("%d", &age);
 
-    // A person is generally considered an adult if they are 18 or older.
     if (age >= 18) {
         printf("The person is an ADULT.\n");
     } else {

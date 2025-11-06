@@ -9,7 +9,6 @@ int main() {
     printf("Enter an integer: ");
     scanf("%d", &number);
 
-    // Use the logical AND operator (&&) to check both conditions simultaneously.
     if ((number % 2 == 0) && (number % 3 == 0)) {
         printf("%d is divisible by both 2 and 3.\n", number);
     } else {

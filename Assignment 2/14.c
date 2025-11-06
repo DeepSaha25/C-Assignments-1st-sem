@@ -1,6 +1,5 @@
 // Assignment 2: Problem 14
 // Write a C program to calculate no of days, months and years from the total number of days.
-// ASSUMPTION: 1 year = 365 days, 1 month = 30 days (for simplicity in this calculation)
 
 #include <stdio.h>
 
@@ -15,15 +14,12 @@ int main() {
         return 1;
     }
 
-    // 1. Calculate Years
     years = total_days / 365;
-    days_remaining = total_days % 365; // Remaining days after removing full years
+    days_remaining = total_days % 365;
 
-    // 2. Calculate Months
     months = days_remaining / 30;
-    days_remaining = days_remaining % 30; // Remaining days after removing full months
+    days_remaining = days_remaining % 30;
 
-    // 3. The final remaining value is the Days
     int final_days = days_remaining;
 
     printf("\nTotal Days: %d\n", total_days);

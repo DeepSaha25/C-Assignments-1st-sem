@@ -9,8 +9,6 @@ int main() {
     printf("Enter an integer: ");
     scanf("%d", &number);
 
-    // An even number is perfectly divisible by 2 (remainder is 0).
-    // The modulus operator (%) finds the remainder.
     if (number % 2 == 0) {
         printf("%d is an EVEN number.\n", number);
     } else {

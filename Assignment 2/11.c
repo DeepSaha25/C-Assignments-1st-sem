@@ -1,11 +1,5 @@
 // Assignment 2: Problem 11
 // Write a C program to calculate the student grade using if-else statements.
-// ASSUMED GRADING SCALE:
-// 90-100: A
-// 80-89: B
-// 70-79: C
-// 60-69: D
-// Below 60: F
 
 #include <stdio.h>
 
