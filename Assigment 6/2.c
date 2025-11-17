@@ -1,4 +1,4 @@
-// 1. Write a C program to calculate the sum and average of all elements in a 1D array.
+// 2. Write a C program to calculate the sum and average of all elements in a 1D array.
 
 #include <stdio.h>
 void main(){

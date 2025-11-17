@@ -1,3 +1,5 @@
+// 5. Write a C program to calculate the frequency and print the corresponding position of a given element
+// from a 1D array
 #include <stdio.h>
 void main() {
     int a[50], n, i, s, f = 0;
